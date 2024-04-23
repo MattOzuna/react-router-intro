@@ -2,7 +2,6 @@ import "./App.css";
 import { NavLink, Outlet, Link } from "react-router-dom";
 
 function App() {
-
   return (
     <>
       <header>
@@ -12,8 +11,7 @@ function App() {
           <NavLink to="/freshsardines">Fresh Sardines</NavLink>
         </nav>
       </header>
-
-        <Outlet />
+      <Outlet />
     </>
   );
 }
